@@ -10,7 +10,7 @@
     {% for book in booklist %}
         <li>
             {#输出图书名称，并设置超链接，链接地址是一个数字#}
-            <a href="/{{ book.id }}/">{{ book.btitle }}</a>
+            <a href="/index/{{ book.id }}/">{{ book.btitle }}</a>
         </li>
     {% endfor %}
 </ul>

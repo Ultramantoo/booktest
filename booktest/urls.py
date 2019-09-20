@@ -4,5 +4,7 @@ from booktest import views
 
 urlpatterns = [
     path('', views.index),
-    re_path('(\d+)/', views.detail)
+    path('index', views.index),
+    re_path('(\d+)/', views.detail),
+    re_path('index(\d+)/', views.detail)
 ]

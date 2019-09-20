@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from booktest.models import BookInfo
 
-
 # 首页，展示所有图书
 def index(request):
     # 查询所有图书
